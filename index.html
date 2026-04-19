@@ -129,8 +129,8 @@ tr:hover td{background:#f8fafc}
 <div id="root"></div>
 <script type="text/babel">
 
-const FB_URL = 'https://track-afb50-default-rtdb.firebaseio.com';
-const GS_KEY = 'AIzaSyBDaPGla2HilWnBJLcd3zA8WbEARv1bc6g';
+const FB_URL = 'https://student-management-syste-b952d-default-rtdb.firebaseio.com';
+const GS_KEY = 'AIzaSyDuoYfArP0-ifxYZ_UKgM7_oAf0dzolANs';
 const DEFAULT_SHEET = 'https://docs.google.com/spreadsheets/d/1jRiotMJ-zOwxrfYrpaofzXxmgFdQmT_piVYcgLYqKr0/edit?usp=sharing';
 const INIT_YEARS = ['2025','2026','2027','2028'];
 const Gender = {MALE:'Male',FEMALE:'Female',OTHER:'Other'};
@@ -1243,16 +1243,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
 
 <script>
-// Firebase init — MUST be after SDK scripts load
 const firebaseConfig = {
-  apiKey: "AIzaSyAEPb1cV5ThxVni1_W_dCRAn8wl_v6otew",
-  authDomain: "track-afb50.firebaseapp.com",
-  databaseURL: "https://track-afb50-default-rtdb.firebaseio.com",
-  projectId: "track-afb50",
-  storageBucket: "track-afb50.firebasestorage.app",
-  messagingSenderId: "575348564273",
-  appId: "1:575348564273:web:f5c0181b26fa8f2bb69010",
-  measurementId: "G-W5SRFYRTQC"
+  apiKey: "AIzaSyDuoYfArP0-ifxYZ_UKgM7_oAf0dzolANs",
+  authDomain: "student-management-syste-b952d.firebaseapp.com",
+  databaseURL: "https://student-management-syste-b952d-default-rtdb.firebaseio.com",
+  projectId: "student-management-syste-b952d",
+  storageBucket: "student-management-syste-b952d.firebasestorage.app",
+  messagingSenderId: "116847902508",
+  appId: "1:116847902508:web:55c6e02f9c775573357689",
+  measurementId: "G-XJLYYQK9VZ"
 };
 firebase.initializeApp(firebaseConfig);
 window._fasDb = firebase.database(); // exposed to React via window
